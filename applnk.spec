@@ -12,7 +12,6 @@ Conflicts:	wmconfig < 0.9.10-5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Base directories tree used for storing desktop/kdelnk menu entries.
