@@ -31,7 +31,7 @@ grup/elementów katalogów.
 
 %build
 rm -f missing
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
