@@ -5,7 +5,7 @@ Version:	1.9.0
 Release:	1
 License:	GPL
 Group:		Base
-Source0:	http://ep09.pld-linux.org/~adgor/pld/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
 # Source0-md5:	15d1f7c032416e5c2a3915c40c240120
 BuildRequires:	autoconf
 BuildRequires:	automake
