@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Base
 Group(pl):	Podstawowe
-Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
