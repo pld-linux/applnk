@@ -29,7 +29,7 @@ grup/elementów katalogów.
 %setup -q
 
 %build
-%configure
+%configure2_13
 
 %install
 rm -rf $RPM_BUILD_ROOT
