@@ -7,7 +7,7 @@ diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applicatio
  			</Or>
 -			<Not><Category>GNOME</Category></Not>
  			<Not><Category>X-XFCE</Category></Not>
-+			<Not><Category>Capplet</Category></Not>
++			<Not><Category>X-Capplet</Category></Not>
  			</And>
  		</Include>
  		<Menu>
@@ -15,7 +15,7 @@ diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applicatio
  				<And>
  				<Category>Settings</Category>
  				<Category>GNOME</Category>
-+				<Category>Capplet</Category>
++				<Category>X-Capplet</Category>
  				<Not><Category>AdvancedSettings</Category></Not>
  				<Not><Category>System</Category></Not>
  				<Not><Category>Accessibility</Category></Not>
@@ -23,7 +23,7 @@ diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applicatio
  					<And>
  					<Category>Settings</Category>
  					<Category>GNOME</Category>
-+					<Category>Capplet</Category>
++					<Category>X-Capplet</Category>
  					<Category>AdvancedSettings</Category>
  					</And>
  				</Include>
@@ -31,7 +31,7 @@ diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applicatio
  					<And>
  					<Category>Settings</Category>
  					<Category>GNOME</Category>
-+					<Category>Capplet</Category>
++					<Category>X-Capplet</Category>
  					<Category>System</Category>
  					</And>
  				</Include>
@@ -39,7 +39,7 @@ diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applicatio
  					<And>
  					<Category>Settings</Category>
  					<Category>GNOME</Category>
-+					<Category>Capplet</Category>
++					<Category>X-Capplet</Category>
  					<Category>Accessibility</Category>
  					</And>
  				</Include>
