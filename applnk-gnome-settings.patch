@@ -1,0 +1,143 @@
+diff -urN aa/applnk-1.9.3/desktop-directories/gnome-settings-accessibility.directory applnk-1.9.3/desktop-directories/gnome-settings-accessibility.directory
+--- aa/applnk-1.9.3/desktop-directories/gnome-settings-accessibility.directory	1970-01-01 01:00:00.000000000 +0100
++++ applnk-1.9.3/desktop-directories/gnome-settings-accessibility.directory	2004-07-24 16:35:57.749882904 +0200
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Encoding=UTF-8
++Name=Accessibility
++Name[pl]=Dostępność
++Comment=Accessibility Settings
++Comment[pl]=Ustawienia dostępności
++Icon=package_gnome_accessibility.png
++# vi: encoding=utf-8
+diff -urN aa/applnk-1.9.3/desktop-directories/gnome-settings-advanced.directory applnk-1.9.3/desktop-directories/gnome-settings-advanced.directory
+--- aa/applnk-1.9.3/desktop-directories/gnome-settings-advanced.directory	1970-01-01 01:00:00.000000000 +0100
++++ applnk-1.9.3/desktop-directories/gnome-settings-advanced.directory	2004-07-24 16:28:06.896463504 +0200
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Encoding=UTF-8
++Name=Advanced
++Name[pl]=Zaawansowane
++Comment=Advanced Settings
++Comment[pl]=Zaawansowane ustawienia
++Icon=package_gnome_advanced.png
++# vi: encoding=utf-8
+diff -urN aa/applnk-1.9.3/desktop-directories/gnome-settings.directory applnk-1.9.3/desktop-directories/gnome-settings.directory
+--- aa/applnk-1.9.3/desktop-directories/gnome-settings.directory	1970-01-01 01:00:00.000000000 +0100
++++ applnk-1.9.3/desktop-directories/gnome-settings.directory	2004-07-24 15:29:08.027453368 +0200
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Encoding=UTF-8
++Name=GNOME settings
++Name[pl]=Ustawienia GNOME
++Comment=
++Comment[pl]=
++Icon=package_gnome.png
++# vi: encoding=utf-8
+diff -urN aa/applnk-1.9.3/desktop-directories/gnome-settings-system.directory applnk-1.9.3/desktop-directories/gnome-settings-system.directory
+--- aa/applnk-1.9.3/desktop-directories/gnome-settings-system.directory	1970-01-01 01:00:00.000000000 +0100
++++ applnk-1.9.3/desktop-directories/gnome-settings-system.directory	2004-07-24 16:33:37.235244376 +0200
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Encoding=UTF-8
++Name=System Tools
++Name[pl]=Narzędzia systemowe
++Comment=System menu
++Comment[pl]=Menu systemowe
++Icon=package_gnome_system.png
++# vi: encoding=utf-8
+diff -urN aa/applnk-1.9.3/desktop-directories/Makefile.am applnk-1.9.3/desktop-directories/Makefile.am
+--- aa/applnk-1.9.3/desktop-directories/Makefile.am	2004-07-18 21:11:43.000000000 +0200
++++ applnk-1.9.3/desktop-directories/Makefile.am	2004-07-24 16:46:45.214453328 +0200
+@@ -21,6 +21,10 @@
+ 	games-rpg.directory \
+ 	games-strategy.directory \
+ 	gnome.directory \
++	gnome-settings.directory \
++	gnome-settings-accessibility.directory \
++	gnome-settings-advanced.directory \
++	gnome-settings-system.directory \
+ 	graphics.directory \
+ 	graphics-viewers.directory \
+ 	help.directory \
+diff -urN aa/applnk-1.9.3/menus/applications.menu applnk-1.9.3/menus/applications.menu
+--- aa/applnk-1.9.3/menus/applications.menu	2004-07-24 15:48:29.953813712 +0200
++++ applnk-1.9.3/menus/applications.menu	2004-07-24 16:30:02.632868896 +0200
+@@ -3,6 +3,10 @@
+ 
+ <Menu>
+ 	<Name>Applications</Name>
++	<!-- Search for GNOME capplets -->
++	<LegacyDir>/usr/share/control-center-2.0/capplets/</LegacyDir>
++	<LegacyDir>/usr/share/gnome/capplets/</LegacyDir>
++	
+ 	<!-- Search the default locations -->
+ 	<DefaultAppDirs/>
+ 	<DefaultDirectoryDirs/>
+@@ -713,16 +717,66 @@
+ 		<Name>Settings</Name>
+ 		<Directory>settings.directory</Directory>
+ 		<Include>
++			<And>
+ 			<Or>
+ 			<Category>Settings</Category>
+ 			<Category>DesktopSettings</Category>
+ 			<Category>HardwareSettings</Category>
+ 			<Category>PackageManager</Category>
+ 			</Or>
++			<Not><Category>GNOME</Category></Not>
++			</And>
++		</Include>
++	<Menu>
++		<Name>GNOME Settings</Name>
++		<Directory>gnome-settings.directory</Directory>
++		<Include>
++			<And>
++			<Category>Settings</Category>
++			<Category>GNOME</Category>
++			<Not><Category>AdvancedSettings</Category></Not>
++			<Not><Category>System</Category></Not>
++			<Not><Category>Accessibility</Category></Not>
++			</And>
++		</Include>
++	<Menu>
++		<Name>Advanced</Name>
++		<Directory>gnome-settings-advanced.directory</Directory>
++		<Include>
++			<And>
++			<Category>Settings</Category>
++			<Category>GNOME</Category>
++			<Category>AdvancedSettings</Category>
++			</And>
+ 		</Include>
+ 	</Menu>
+ 	<Menu>
+ 		<Name>System</Name>
++		<Directory>gnome-settings-system.directory</Directory>
++		<Include>
++			<And>
++			<Category>Settings</Category>
++			<Category>GNOME</Category>
++			<Category>System</Category>
++			</And>
++		</Include>
++	</Menu>
++	<Menu>
++		<Name>Accessibility</Name>
++		<Directory>gnome-settings-accessibility.directory</Directory>
++		<Include>
++			<And>
++			<Category>Settings</Category>
++			<Category>GNOME</Category>
++			<Category>Accessibility</Category>
++			</And>
++		</Include>
++	</Menu>
++	</Menu>
++	</Menu>
++	
++	<Menu>
++		<Name>System</Name>
+ 		<Directory>system.directory</Directory>
+ 		<Include>
+ 			<And>
