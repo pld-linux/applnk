@@ -1,0 +1,4 @@
+new 1.2 version:
+- more .order and .directory files (michuz),
+- added Office/{Misc,Presentations,Databases,PIMs} and Graphics/Viewers
+  subdirectories (michuz),
