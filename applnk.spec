@@ -15,8 +15,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
-%define		_vdconfdir	/etc/X11/desktop
-%define		_vdinfodir	%{_datadir}/desktop-directories
+%define		_vfconfdir	/etc/X11/desktop
+%define		_vfinfodir	%{_datadir}/desktop-directories
 
 %description
 Base directories tree used for storing desktop/kdelnk menu entries.
@@ -53,11 +53,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_vdconfdir}
-%dir %{_vdconfdir}/menus
+%dir %{_vfconfdir}
+%dir %{_vfconfdir}/menus
 # should be marked as %%config
-%{_vdconfdir}/menus/applications.menu
+%{_vfconfdir}/menus/applications.menu
 %{_applnkdir}
 %{_desktopdir}
-%{_vdinfodir}
+%{_vfinfodir}
 %{_pixmapsdir}/*
