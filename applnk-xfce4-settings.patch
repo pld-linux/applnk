@@ -1,3 +1,15 @@
+diff -urN applnk-1.9.3.orig/desktop-directories/Makefile.am applnk-1.9.3/desktop-directories/Makefile.am
+--- applnk-1.9.3.orig/desktop-directories/Makefile.am	2004-08-07 17:47:57.743470568 +0200
++++ applnk-1.9.3/desktop-directories/Makefile.am	2004-08-07 17:58:10.358338952 +0200
+@@ -80,6 +80,7 @@
+ 	physics.directory \
+ 	project.directory \
+ 	teaching.directory \
+-	webdesign.directory
++	webdesign.directory \
++	xfce4-settings.directory
+ 
+ EXTRA_DIST = $(vfinfo_DATA)
 diff -urN applnk-1.9.3.orig/desktop-directories/xfce4-settings.directory applnk-1.9.3/desktop-directories/xfce4-settings.directory
 --- applnk-1.9.3.orig/desktop-directories/xfce4-settings.directory	1970-01-01 01:00:00.000000000 +0100
 +++ applnk-1.9.3/desktop-directories/xfce4-settings.directory	2004-08-07 17:57:07.772853392 +0200
