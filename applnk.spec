@@ -1,15 +1,14 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
-Version:	1.6.5
+Version:	1.9.0
 Release:	1
 License:	GPL
 Group:		Base
 Source0:	http://www.kernel.pl/~adgor/pld/%{name}-%{version}.tar.bz2
-# Source0-md5:	1ff5e59584875b42f6ee99169113d751
+# Source0-md5:	15d1f7c032416e5c2a3915c40c240120
 BuildRequires:	autoconf
 BuildRequires:	automake
-Conflicts:	wmconfig < 0.9.10-5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -43,7 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	applnkdir=%{_applnkdir} \
 	pixmapsdir=%{_pixmapsdir}
 
 install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
@@ -57,6 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_xdgconfdir}/menus/applications-merged
 # should be marked as %%config
 %{_xdgconfdir}/menus/applications.menu
-%{_applnkdir}
 %{_xdgdatadir}
 %{_pixmapsdir}/*
