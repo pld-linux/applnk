@@ -13,8 +13,8 @@ Conflicts:	wmconfig < 0.9.10-5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_vfinfodir	%{_datadir}/desktop-directories
 %define		_xdgconfdir	/etc/xdg
+%define		_xdgdatadir	%{_datadir}/desktop-directories
 
 %description
 Base directories tree used for storing desktop/kdelnk menu entries.
@@ -46,14 +46,17 @@ rm -rf $RPM_BUILD_ROOT
 	applnkdir=%{_applnkdir} \
 	pixmapsdir=%{_pixmapsdir}
 
+install -d $RPM_BUILD_ROOT%{xdgconfdir}/menus/applications-merged
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
 %dir %{_xdgconfdir}/menus
+%dir %{_xdgconfdir}/menus/aplications-merged
 # should be marked as %%config
 %{_xdgconfdir}/menus/applications.menu
 %{_applnkdir}
-%{_vfinfodir}
+%{_xdgdatadir}
 %{_pixmapsdir}/*
