@@ -5,7 +5,9 @@ Version:	1.5.16
 Release:	1
 License:	GPL
 Group:		Base
-Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
+# This file does not exist at this URL.
+#Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	autoconf
 BuildRequires:	automake
 Conflicts:	wmconfig < 0.9.10-5
