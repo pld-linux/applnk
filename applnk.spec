@@ -1,7 +1,7 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl):	Applnk - bazowa srruktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
-Version:	1.4.3
+Version:	1.5.0
 Release:	1
 License:	GPL
 Group:		Base
@@ -41,3 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_applnkdir}
+%{_pixmapsdir}/*
