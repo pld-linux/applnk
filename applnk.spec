@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 	applnkdir=%{_applnkdir} \
 	pixmapsdir=%{_pixmapsdir}
 
-install -d $RPM_BUILD_ROOT%{xdgconfdir}/menus/applications-merged
+install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %dir %{_xdgconfdir}/menus
-%dir %{_xdgconfdir}/menus/aplications-merged
+%dir %{_xdgconfdir}/menus/applications-merged
 # should be marked as %%config
 %{_xdgconfdir}/menus/applications.menu
 %{_applnkdir}
