@@ -8,6 +8,7 @@ Group:		Base
 Source0:	ftp://ftp.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
 # Source0-md5:	e3d5d40cfd4ea6c891d4e337004e09f4
 Source1:	%{name}-gnome-preferences.menu
+Patch0:		%{name}-system.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildArch:	noarch
@@ -31,6 +32,7 @@ grup/elementów katalogów.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 rm -f missing
