@@ -10,8 +10,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Base directories tree used for storing desktop/kdelnk menu entries.
-Package contains also full description this hierary (descriprions wit
-translations and order menu entries data).
+Package also contains full description of this hierarchy (descriptions
+with translations and menu order).
 
 %prep
 %setup -q
