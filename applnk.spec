@@ -8,6 +8,7 @@ Group:		Base
 # This file does not exist at this URL.
 #Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5: 52b4982b401f29a121b25fcc4280609e
 BuildRequires:	autoconf
 BuildRequires:	automake
 Conflicts:	wmconfig < 0.9.10-5
