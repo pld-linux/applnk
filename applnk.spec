@@ -1,5 +1,5 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
-Summary(pl):	Applnk - bazowa srruktura katalogów z opisami do plików desktop/kdelnk
+Summary(pl):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
 Version:	1.5.0
 Release:	1
