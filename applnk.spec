@@ -31,7 +31,7 @@ grup/elementów katalogów.
 
 %build
 aclocal
-autoconf
+%{__autoconf}
 automake -a -f
 %configure
 
