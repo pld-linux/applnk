@@ -15,6 +15,7 @@ Patch3:		%{name}-type_directory.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildArch:	noarch
+Obsoletes:	gnome-menus
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_xdgconfdir	/etc/xdg
