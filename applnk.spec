@@ -60,10 +60,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc ChangeLog NEWS 
 %dir %{_desktopdir}/docklets
 %dir %{_xdgconfdir}/menus
 %dir %{_xdgconfdir}/menus/applications-merged
-# should be marked as %%config
-%{_xdgconfdir}/menus/applications.menu
+%config(noreplace) %verify(not md5 mtime size) %{_xdgconfdir}/menus/applications.menu
 %{_xdgdatadir}
 %{_pixmapsdir}/*
