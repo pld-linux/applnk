@@ -1,0 +1,705 @@
+diff -urN aa/applnk-1.9.4/desktop-directories/accessibility.directory applnk-1.9.4/desktop-directories/accessibility.directory
+--- aa/applnk-1.9.4/desktop-directories/accessibility.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/accessibility.directory	2005-02-09 01:53:27.684290960 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_access.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/administration.directory applnk-1.9.4/desktop-directories/administration.directory
+--- aa/applnk-1.9.4/desktop-directories/administration.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/administration.directory	2005-02-09 01:53:33.063473200 +0100
+@@ -5,3 +5,4 @@
+ Comment=System administrations tools
+ Comment[pl]=Narzędzia administracji systemem
+ Icon=linuxconf
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/amusements.directory applnk-1.9.4/desktop-directories/amusements.directory
+--- aa/applnk-1.9.4/desktop-directories/amusements.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/amusements.directory	2005-02-09 01:53:36.189997896 +0100
+@@ -29,3 +29,4 @@
+ Comment=Amusements
+ Comment[pl]=Aplikacje - zabawki
+ Icon=package_toys
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/archiving.directory applnk-1.9.4/desktop-directories/archiving.directory
+--- aa/applnk-1.9.4/desktop-directories/archiving.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/archiving.directory	2005-02-09 01:53:38.698616528 +0100
+@@ -5,4 +5,5 @@
+ Comment=Archive managers
+ Comment[pl]=Zarządzanie archiwami
+ Icon=package_archives.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/art.directory applnk-1.9.4/desktop-directories/art.directory
+--- aa/applnk-1.9.4/desktop-directories/art.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/art.directory	2005-02-09 01:53:41.337215400 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_art.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/astronomy.directory applnk-1.9.4/desktop-directories/astronomy.directory
+--- aa/applnk-1.9.4/desktop-directories/astronomy.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/astronomy.directory	2005-02-09 01:53:43.506885560 +0100
+@@ -5,4 +5,5 @@
+ Comment=Scientific applications - Astronomy
+ Comment[pl]=Aplikacje naukowe - Astronomia
+ Icon=package_astronomy.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/calculator.directory applnk-1.9.4/desktop-directories/calculator.directory
+--- aa/applnk-1.9.4/desktop-directories/calculator.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/calculator.directory	2005-02-09 01:53:45.780539912 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_calc.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/cd-rw.directory applnk-1.9.4/desktop-directories/cd-rw.directory
+--- aa/applnk-1.9.4/desktop-directories/cd-rw.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/cd-rw.directory	2005-02-09 01:53:47.777236368 +0100
+@@ -5,4 +5,5 @@
+ Comment=Utilities for CD recoders
+ Comment[pl]=Narzędzia dla nagrywarek płyt CD
+ Icon=package_cd-rw.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/chemistry.directory applnk-1.9.4/desktop-directories/chemistry.directory
+--- aa/applnk-1.9.4/desktop-directories/chemistry.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/chemistry.directory	2005-02-09 01:53:49.842922336 +0100
+@@ -5,4 +5,5 @@
+ Comment=Scientific applications - Chemistry
+ Comment[pl]=Aplikacje naukowe - Chemia
+ Icon=package_chemistry.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/clock.directory applnk-1.9.4/desktop-directories/clock.directory
+--- aa/applnk-1.9.4/desktop-directories/clock.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/clock.directory	2005-02-09 01:53:51.747632776 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_clock.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/databases.directory applnk-1.9.4/desktop-directories/databases.directory
+--- aa/applnk-1.9.4/desktop-directories/databases.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/databases.directory	2005-02-09 01:53:53.644344432 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_databases.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/development.directory applnk-1.9.4/desktop-directories/development.directory
+--- aa/applnk-1.9.4/desktop-directories/development.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/development.directory	2005-02-09 01:53:57.057825504 +0100
+@@ -61,4 +61,5 @@
+ Name[zh_TW]=程式開發
+ Name[zu]=Intuthuko
+ Icon=package_development
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/dicts.directory applnk-1.9.4/desktop-directories/dicts.directory
+--- aa/applnk-1.9.4/desktop-directories/dicts.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/dicts.directory	2005-02-09 01:53:59.239493840 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_dicts.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/docklets.directory applnk-1.9.4/desktop-directories/docklets.directory
+--- aa/applnk-1.9.4/desktop-directories/docklets.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/docklets.directory	2005-02-09 01:54:01.448158072 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_docklets.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/editors.directory applnk-1.9.4/desktop-directories/editors.directory
+--- aa/applnk-1.9.4/desktop-directories/editors.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/editors.directory	2005-02-09 01:54:03.934780048 +0100
+@@ -58,3 +58,4 @@
+ Name[zh_TW]=編輯器
+ Name[zu]=Abalungisi
+ Icon=package_editors
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/edu_music.directory applnk-1.9.4/desktop-directories/edu_music.directory
+--- aa/applnk-1.9.4/desktop-directories/edu_music.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/edu_music.directory	2005-02-09 01:54:06.799344568 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_music.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/edutainment.directory applnk-1.9.4/desktop-directories/edutainment.directory
+--- aa/applnk-1.9.4/desktop-directories/edutainment.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/edutainment.directory	2005-02-09 01:54:08.774044368 +0100
+@@ -3,5 +3,6 @@
+ Name=Education
+ Name[pl]=Edukacja
+ Icon=package_edutainment.png
++Type=Directory
+ # vi: encoding=utf-8
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/electronics.directory applnk-1.9.4/desktop-directories/electronics.directory
+--- aa/applnk-1.9.4/desktop-directories/electronics.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/electronics.directory	2005-02-09 01:54:10.793737328 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_electro.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/emulators.directory applnk-1.9.4/desktop-directories/emulators.directory
+--- aa/applnk-1.9.4/desktop-directories/emulators.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/emulators.directory	2005-02-09 01:54:12.635457344 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_emu.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/engineering.directory applnk-1.9.4/desktop-directories/engineering.directory
+--- aa/applnk-1.9.4/desktop-directories/engineering.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/engineering.directory	2005-02-09 01:54:14.777131760 +0100
+@@ -5,3 +5,4 @@
+ Comment=Scientific applications - Engineering
+ Comment[pl]=Aplikacje naukowe - inżynieryjne
+ Icon=package_engineering.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/filemanager.directory applnk-1.9.4/desktop-directories/filemanager.directory
+--- aa/applnk-1.9.4/desktop-directories/filemanager.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/filemanager.directory	2005-02-09 01:54:16.948801616 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_fileman.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/filesystem.directory applnk-1.9.4/desktop-directories/filesystem.directory
+--- aa/applnk-1.9.4/desktop-directories/filesystem.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/filesystem.directory	2005-02-09 01:54:18.858511296 +0100
+@@ -5,4 +5,5 @@
+ Comment=Filesystem tools
+ Comment[pl]=
+ Icon=package_filesys.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-action.directory applnk-1.9.4/desktop-directories/games-action.directory
+--- aa/applnk-1.9.4/desktop-directories/games-action.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-action.directory	2005-02-09 01:54:20.914198784 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_action.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-adventure.directory applnk-1.9.4/desktop-directories/games-adventure.directory
+--- aa/applnk-1.9.4/desktop-directories/games-adventure.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-adventure.directory	2005-02-09 01:54:22.816909528 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_adventure.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-arcade.directory applnk-1.9.4/desktop-directories/games-arcade.directory
+--- aa/applnk-1.9.4/desktop-directories/games-arcade.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-arcade.directory	2005-02-09 01:54:25.142555976 +0100
+@@ -44,3 +44,4 @@
+ Name[zh_TW]=大型遊戲機遊戲
+ Name[zu]=Umhhume
+ Icon=package_games_arcade
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games-blocks.directory applnk-1.9.4/desktop-directories/games-blocks.directory
+--- aa/applnk-1.9.4/desktop-directories/games-blocks.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-blocks.directory	2005-02-09 01:54:27.121255168 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_block.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-board.directory applnk-1.9.4/desktop-directories/games-board.directory
+--- aa/applnk-1.9.4/desktop-directories/games-board.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-board.directory	2005-02-09 01:54:29.831843096 +0100
+@@ -56,3 +56,4 @@
+ Name[zh_TW]=棋盤遊戲
+ Name[zu]=Imidlalo yebhodi
+ Icon=package_games_board
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games-card.directory applnk-1.9.4/desktop-directories/games-card.directory
+--- aa/applnk-1.9.4/desktop-directories/games-card.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-card.directory	2005-02-09 01:54:32.004512800 +0100
+@@ -58,3 +58,4 @@
+ Name[zh_TW]=紙牌遊戲
+ Name[zu]=Imidlalo yamakhadi
+ Icon=package_games_card
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games.directory applnk-1.9.4/desktop-directories/games.directory
+--- aa/applnk-1.9.4/desktop-directories/games.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games.directory	2005-02-09 01:54:34.430144048 +0100
+@@ -61,4 +61,5 @@
+ Name[zh_TW]=遊戲
+ Name[zu]=Imidlalo
+ Icon=package_games
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/games-fpp.directory applnk-1.9.4/desktop-directories/games-fpp.directory
+--- aa/applnk-1.9.4/desktop-directories/games-fpp.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-fpp.directory	2005-02-09 01:54:36.196875464 +0100
+@@ -4,3 +4,4 @@
+ Comment="First Person Perspective" games menu
+ Comment[pl]=Menu gier "Widzianych oczami bohatera"
+ Icon=package_games_fpp
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games-logic.directory applnk-1.9.4/desktop-directories/games-logic.directory
+--- aa/applnk-1.9.4/desktop-directories/games-logic.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-logic.directory	2005-02-09 01:54:38.243564320 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_logic.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-racing.directory applnk-1.9.4/desktop-directories/games-racing.directory
+--- aa/applnk-1.9.4/desktop-directories/games-racing.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-racing.directory	2005-02-09 01:54:39.978300600 +0100
+@@ -5,3 +5,4 @@
+ Comment=Racing games menu
+ Comment[pl]=Menu gier rajdowych
+ Icon=package_games_racing.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games-rpg.directory applnk-1.9.4/desktop-directories/games-rpg.directory
+--- aa/applnk-1.9.4/desktop-directories/games-rpg.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-rpg.directory	2005-02-09 01:54:41.574058008 +0100
+@@ -4,3 +4,4 @@
+ Comment=Role Playing Games menu
+ Comment[pl]=Menu gier fabularnych (RPG)
+ Icon=package_games_rpg
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/games-simulation.directory applnk-1.9.4/desktop-directories/games-simulation.directory
+--- aa/applnk-1.9.4/desktop-directories/games-simulation.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-simulation.directory	2005-02-09 01:54:43.515762824 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_sim.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-sport.directory applnk-1.9.4/desktop-directories/games-sport.directory
+--- aa/applnk-1.9.4/desktop-directories/games-sport.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-sport.directory	2005-02-09 01:54:45.651438152 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_sport.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/games-strategy.directory applnk-1.9.4/desktop-directories/games-strategy.directory
+--- aa/applnk-1.9.4/desktop-directories/games-strategy.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/games-strategy.directory	2005-02-09 01:54:47.863101928 +0100
+@@ -55,3 +55,4 @@
+ Name[zh_TW]=戰略及策略
+ Name[zu]=Amaqhinga & Iplani
+ Icon=package_games_strategy
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/gnome.directory applnk-1.9.4/desktop-directories/gnome.directory
+--- aa/applnk-1.9.4/desktop-directories/gnome.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/gnome.directory	2005-02-09 01:54:49.646830760 +0100
+@@ -2,4 +2,5 @@
+ Encoding=UTF-8
+ Name=GNOME
+ Icon=package_gnome
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/gnome-settings-accessibility.directory applnk-1.9.4/desktop-directories/gnome-settings-accessibility.directory
+--- aa/applnk-1.9.4/desktop-directories/gnome-settings-accessibility.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/gnome-settings-accessibility.directory	2005-02-09 01:54:51.744511864 +0100
+@@ -5,4 +5,5 @@
+ Comment=Accessibility Settings
+ Comment[pl]=Ustawienia dostępności
+ Icon=package_gnome_accessibility.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/gnome-settings-advanced.directory applnk-1.9.4/desktop-directories/gnome-settings-advanced.directory
+--- aa/applnk-1.9.4/desktop-directories/gnome-settings-advanced.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/gnome-settings-advanced.directory	2005-02-09 01:54:53.996169560 +0100
+@@ -5,4 +5,5 @@
+ Comment=Advanced Settings
+ Comment[pl]=Zaawansowane ustawienia
+ Icon=package_gnome_advanced.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/gnome-settings.directory applnk-1.9.4/desktop-directories/gnome-settings.directory
+--- aa/applnk-1.9.4/desktop-directories/gnome-settings.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/gnome-settings.directory	2005-02-09 01:54:55.972869056 +0100
+@@ -4,4 +4,5 @@
+ Comment=GNOME settings
+ Comment[pl]=Ustawienia GNOME
+ Icon=package_gnome.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/gnome-settings-system.directory applnk-1.9.4/desktop-directories/gnome-settings-system.directory
+--- aa/applnk-1.9.4/desktop-directories/gnome-settings-system.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/gnome-settings-system.directory	2005-02-09 01:54:57.990562320 +0100
+@@ -5,4 +5,5 @@
+ Comment=System menu
+ Comment[pl]=Menu systemowe
+ Icon=package_gnome_system.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/graphics.directory applnk-1.9.4/desktop-directories/graphics.directory
+--- aa/applnk-1.9.4/desktop-directories/graphics.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/graphics.directory	2005-02-09 01:55:00.555172440 +0100
+@@ -61,4 +61,5 @@
+ Name[zh_TW]=圖形
+ Name[zu]=Imidwebo
+ Icon=package_graphics
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/graphics-scan.directory applnk-1.9.4/desktop-directories/graphics-scan.directory
+--- aa/applnk-1.9.4/desktop-directories/graphics-scan.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/graphics-scan.directory	2005-02-09 01:55:02.725842448 +0100
+@@ -5,4 +5,5 @@
+ Comment=Scanning tools
+ Comment[pl]=Narzędzia do skanowania
+ Icon=package_scan.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/graphics-viewers.directory applnk-1.9.4/desktop-directories/graphics-viewers.directory
+--- aa/applnk-1.9.4/desktop-directories/graphics-viewers.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/graphics-viewers.directory	2005-02-09 01:55:04.820524008 +0100
+@@ -5,4 +5,5 @@
+ Comment=Picture viewers
+ Comment[pl]=Przeglądarki plików graficznych
+ Icon=xeyes
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/help.directory applnk-1.9.4/desktop-directories/help.directory
+--- aa/applnk-1.9.4/desktop-directories/help.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/help.directory	2005-02-09 01:55:07.531111936 +0100
+@@ -5,3 +5,4 @@
+ Comment=Menu with tools providing many kinds of help and documentation
+ Comment[pl]=Menu z narzędziami udostepniajacymi różnego rodzaju pomoc i dokumentację
+ Icon=package_help.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/i18n.directory applnk-1.9.4/desktop-directories/i18n.directory
+--- aa/applnk-1.9.4/desktop-directories/i18n.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/i18n.directory	2005-02-09 01:55:09.489814168 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_i18n.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/kde.directory applnk-1.9.4/desktop-directories/kde.directory
+--- aa/applnk-1.9.4/desktop-directories/kde.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/kde.directory	2005-02-09 01:55:11.388525520 +0100
+@@ -2,4 +2,5 @@
+ Encoding=UTF-8
+ Name=KDE
+ Icon=package_kde
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/languages.directory applnk-1.9.4/desktop-directories/languages.directory
+--- aa/applnk-1.9.4/desktop-directories/languages.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/languages.directory	2005-02-09 01:55:13.276238544 +0100
+@@ -3,4 +3,5 @@
+ Name=Languages
+ Name[pl]=Języki
+ Icon=package_languages.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/mathematics.directory applnk-1.9.4/desktop-directories/mathematics.directory
+--- aa/applnk-1.9.4/desktop-directories/mathematics.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/mathematics.directory	2005-02-09 01:55:15.326926792 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_mathematics.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/media-edit.directory applnk-1.9.4/desktop-directories/media-edit.directory
+--- aa/applnk-1.9.4/desktop-directories/media-edit.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/media-edit.directory	2005-02-09 01:55:17.200641944 +0100
+@@ -5,4 +5,5 @@
+ Comment=Media Editing
+ Comment[pl]=Modyfikowanie mediów
+ Icon=package_m_edit.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/media-play.directory applnk-1.9.4/desktop-directories/media-play.directory
+--- aa/applnk-1.9.4/desktop-directories/media-play.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/media-play.directory	2005-02-09 01:55:19.113351168 +0100
+@@ -5,4 +5,5 @@
+ Comment=Media Playback
+ Comment[pl]=Odtwarzanie mediów
+ Icon=package_m_play.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/media-tuner.directory applnk-1.9.4/desktop-directories/media-tuner.directory
+--- aa/applnk-1.9.4/desktop-directories/media-tuner.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/media-tuner.directory	2005-02-09 01:55:21.212032120 +0100
+@@ -3,4 +3,5 @@
+ Name=Tuners
+ Name[pl]=Tunery
+ Icon=package_m_tuner.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/misc.directory applnk-1.9.4/desktop-directories/misc.directory
+--- aa/applnk-1.9.4/desktop-directories/misc.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/misc.directory	2005-02-09 01:55:22.846783600 +0100
+@@ -3,4 +3,5 @@
+ Name=Miscellaneous
+ Name[pl]=Różne
+ Icon=package_applications.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/monitor.directory applnk-1.9.4/desktop-directories/monitor.directory
+--- aa/applnk-1.9.4/desktop-directories/monitor.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/monitor.directory	2005-02-09 01:55:24.836481120 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_monitor.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/multimedia.directory applnk-1.9.4/desktop-directories/multimedia.directory
+--- aa/applnk-1.9.4/desktop-directories/multimedia.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/multimedia.directory	2005-02-09 01:55:27.206120880 +0100
+@@ -42,4 +42,5 @@
+ Name[zh_TW]=多媒體
+ Name[zu]=Onozindaba abaningi
+ Icon=package_multimedia
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/network-communications.directory applnk-1.9.4/desktop-directories/network-communications.directory
+--- aa/applnk-1.9.4/desktop-directories/network-communications.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-communications.directory	2005-02-09 01:55:29.234812472 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_communications.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/network-dialup.directory applnk-1.9.4/desktop-directories/network-dialup.directory
+--- aa/applnk-1.9.4/desktop-directories/network-dialup.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-dialup.directory	2005-02-09 01:55:31.152520936 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_dialup.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/network.directory applnk-1.9.4/desktop-directories/network.directory
+--- aa/applnk-1.9.4/desktop-directories/network.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network.directory	2005-02-09 01:55:34.920948048 +0100
+@@ -50,4 +50,5 @@
+ Comment[zh_CN]=网路及网际网路相关应用程式
+ Comment[zh_TW]=網路及網際網路相關應用程式
+ Icon=package_network
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/network-ftp.directory applnk-1.9.4/desktop-directories/network-ftp.directory
+--- aa/applnk-1.9.4/desktop-directories/network-ftp.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-ftp.directory	2005-02-09 01:55:36.784664720 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_network_ftp.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/network-mail.directory applnk-1.9.4/desktop-directories/network-mail.directory
+--- aa/applnk-1.9.4/desktop-directories/network-mail.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-mail.directory	2005-02-09 01:55:40.499100040 +0100
+@@ -5,3 +5,4 @@
+ Comment=E-mail programs
+ Comment[pl]=Programy pocztowe
+ Icon=package_network_mail.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/network-news.directory applnk-1.9.4/desktop-directories/network-news.directory
+--- aa/applnk-1.9.4/desktop-directories/network-news.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-news.directory	2005-02-09 01:55:42.257832672 +0100
+@@ -5,3 +5,4 @@
+ Name[pl]=Wiadomości
+ Comment[pl]=Grupy dyskusyjne i wiadomości
+ Icon=package_network_news.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/network-remote.directory applnk-1.9.4/desktop-directories/network-remote.directory
+--- aa/applnk-1.9.4/desktop-directories/network-remote.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-remote.directory	2005-02-09 01:55:44.160543416 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_remote.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/network-www.directory applnk-1.9.4/desktop-directories/network-www.directory
+--- aa/applnk-1.9.4/desktop-directories/network-www.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/network-www.directory	2005-02-09 01:55:45.992264952 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_network_www.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/numerics.directory applnk-1.9.4/desktop-directories/numerics.directory
+--- aa/applnk-1.9.4/desktop-directories/numerics.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/numerics.directory	2005-02-09 01:55:48.202928880 +0100
+@@ -5,5 +5,6 @@
+ Comment=Scientific applications - Numerics
+ Comment[pl]=Aplikacje naukowe - Numeryka
+ Icon=package_numerics.png
++Type=Directory
+ 
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/office.directory applnk-1.9.4/desktop-directories/office.directory
+--- aa/applnk-1.9.4/desktop-directories/office.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/office.directory	2005-02-09 01:55:50.697549640 +0100
+@@ -57,4 +57,5 @@
+ Name[zh_TW]=辦公軟體
+ Name[zu]=Ihhofisi
+ Icon=package_office
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/pda.directory applnk-1.9.4/desktop-directories/pda.directory
+--- aa/applnk-1.9.4/desktop-directories/pda.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/pda.directory	2005-02-09 01:55:52.562266160 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_pda.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/physics.directory applnk-1.9.4/desktop-directories/physics.directory
+--- aa/applnk-1.9.4/desktop-directories/physics.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/physics.directory	2005-02-09 01:55:54.656947720 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_physics.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/pims.directory applnk-1.9.4/desktop-directories/pims.directory
+--- aa/applnk-1.9.4/desktop-directories/pims.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/pims.directory	2005-02-09 01:55:56.521664240 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_pims.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/plotting.directory applnk-1.9.4/desktop-directories/plotting.directory
+--- aa/applnk-1.9.4/desktop-directories/plotting.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/plotting.directory	2005-02-09 01:55:58.531358720 +0100
+@@ -5,4 +5,5 @@
+ Comment=Scientific applications - Plotting
+ Comment[pl]=Aplikacje naukowe - Wykresy
+ Icon=package_plotting.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/presentations.directory applnk-1.9.4/desktop-directories/presentations.directory
+--- aa/applnk-1.9.4/desktop-directories/presentations.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/presentations.directory	2005-02-09 01:56:00.396075240 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_presentations.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/project.directory applnk-1.9.4/desktop-directories/project.directory
+--- aa/applnk-1.9.4/desktop-directories/project.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/project.directory	2005-02-09 01:56:02.760715760 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_project.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/scientific.directory applnk-1.9.4/desktop-directories/scientific.directory
+--- aa/applnk-1.9.4/desktop-directories/scientific.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/scientific.directory	2005-02-09 01:56:04.936385008 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_scientific.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/settings.directory applnk-1.9.4/desktop-directories/settings.directory
+--- aa/applnk-1.9.4/desktop-directories/settings.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/settings.directory	2005-02-09 01:56:07.231036168 +0100
+@@ -50,3 +50,4 @@
+ Name[zh_TW]=設定值
+ Name[zu]=Izilungiselelo
+ Icon=package_settings
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/spreadsheets.directory applnk-1.9.4/desktop-directories/spreadsheets.directory
+--- aa/applnk-1.9.4/desktop-directories/spreadsheets.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/spreadsheets.directory	2005-02-09 01:56:09.132747064 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_spreadsheet.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/system.directory applnk-1.9.4/desktop-directories/system.directory
+--- aa/applnk-1.9.4/desktop-directories/system.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/system.directory	2005-02-09 01:56:11.566377096 +0100
+@@ -55,4 +55,5 @@
+ Name[zh_TW]=系統
+ Name[zu]=Isistimu
+ Icon=package_system
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/teaching.directory applnk-1.9.4/desktop-directories/teaching.directory
+--- aa/applnk-1.9.4/desktop-directories/teaching.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/teaching.directory	2005-02-09 01:56:13.665058048 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_teach.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/terminals.directory applnk-1.9.4/desktop-directories/terminals.directory
+--- aa/applnk-1.9.4/desktop-directories/terminals.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/terminals.directory	2005-02-09 01:56:15.612761952 +0100
+@@ -5,4 +5,5 @@
+ Comment=Terminal applications
+ Comment[pl]=Aplikacje terminalowe
+ Icon=package_terminals.png
++Type=Directory
+ 
+diff -urN aa/applnk-1.9.4/desktop-directories/utilities.directory applnk-1.9.4/desktop-directories/utilities.directory
+--- aa/applnk-1.9.4/desktop-directories/utilities.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/utilities.directory	2005-02-09 01:56:18.425334376 +0100
+@@ -119,3 +119,4 @@
+ Comment[zh_CN]=实用工具
+ Comment[zh_TW]=實用工具
+ Comment[zu]=Izisebenzi
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/webdesign.directory applnk-1.9.4/desktop-directories/webdesign.directory
+--- aa/applnk-1.9.4/desktop-directories/webdesign.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/webdesign.directory	2005-02-09 01:56:20.351041624 +0100
+@@ -5,4 +5,5 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_webdesign.png
++Type=Directory
+ # vi: encoding=utf-8
+diff -urN aa/applnk-1.9.4/desktop-directories/wordprocessors.directory applnk-1.9.4/desktop-directories/wordprocessors.directory
+--- aa/applnk-1.9.4/desktop-directories/wordprocessors.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/wordprocessors.directory	2005-02-09 01:56:22.121772432 +0100
+@@ -5,3 +5,4 @@
+ Comment=
+ Comment[pl]=
+ Icon=package_wordprocessing.png
++Type=Directory
+diff -urN aa/applnk-1.9.4/desktop-directories/x11.directory applnk-1.9.4/desktop-directories/x11.directory
+--- aa/applnk-1.9.4/desktop-directories/x11.directory	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/desktop-directories/x11.directory	2005-02-09 01:56:25.918195288 +0100
+@@ -4,3 +4,4 @@
+ Icon=package_x11
+ Comment=X Window Utilities
+ Comment[pl]=Narz�dzia systemu XWindow
++Type=Directory
