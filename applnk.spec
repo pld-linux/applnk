@@ -9,6 +9,7 @@ Group:		Base
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	85300a3ea420042be20e8438c7e42dd0
 Patch0:		%{name}-capplet.patch
+Patch1:		%{name}-SystemSetup.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildArch:	noarch
@@ -43,6 +44,7 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
+	$RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
@@ -53,6 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{_desktopdir}/docklets
 %dir %{_xdgconfdir}/menus
 %dir %{_xdgconfdir}/menus/applications-merged
 # should be marked as %%config
