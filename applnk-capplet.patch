@@ -1,0 +1,43 @@
+diff -ur applnk-1.9.4.orig/menus/applications.menu applnk-1.9.4/menus/applications.menu
+--- applnk-1.9.4.orig/menus/applications.menu	2004-08-23 18:20:55.000000000 +0200
++++ applnk-1.9.4/menus/applications.menu	2004-09-16 22:21:24.898987848 +0200
+@@ -723,7 +723,6 @@
+ 			<Category>HardwareSettings</Category>
+ 			<Category>PackageManager</Category>
+ 			</Or>
+-			<Not><Category>GNOME</Category></Not>
+ 			<Not><Category>X-XFCE</Category></Not>
+ 			</And>
+ 		</Include>
+@@ -744,6 +743,7 @@
+ 				<And>
+ 				<Category>Settings</Category>
+ 				<Category>GNOME</Category>
++				<Category>Capplet</Category>
+ 				<Not><Category>AdvancedSettings</Category></Not>
+ 				<Not><Category>System</Category></Not>
+ 				<Not><Category>Accessibility</Category></Not>
+@@ -756,6 +756,7 @@
+ 					<And>
+ 					<Category>Settings</Category>
+ 					<Category>GNOME</Category>
++					<Category>Capplet</Category>
+ 					<Category>AdvancedSettings</Category>
+ 					</And>
+ 				</Include>
+@@ -767,6 +768,7 @@
+ 					<And>
+ 					<Category>Settings</Category>
+ 					<Category>GNOME</Category>
++					<Category>Capplet</Category>
+ 					<Category>System</Category>
+ 					</And>
+ 				</Include>
+@@ -778,6 +780,7 @@
+ 					<And>
+ 					<Category>Settings</Category>
+ 					<Category>GNOME</Category>
++					<Category>Capplet</Category>
+ 					<Category>Accessibility</Category>
+ 					</And>
+ 				</Include>
