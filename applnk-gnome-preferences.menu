@@ -16,11 +16,13 @@
   <Include>
     <And>
       <Category>Settings</Category>
-      <Category>GNOME</Category>  	
+      <Category>GNOME</Category>
+      <Category>X-Capplet</Category>
       <Not>
         <Or>
           <Category>System</Category>
 	  <Category>Accessibility</Category>
+	  <Category>AdvancedSettings</Category>
         </Or>
       </Not>
     </And>
@@ -31,6 +33,34 @@
     <Filename>gnomecc.desktop</Filename>
   </Exclude>
 
+  <!-- Advanced -->
+  <Menu>
+    <Name>Advanced</Name>
+    <Directory>gnome-settings-advanced.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>GNOME</Category>
+        <Category>X-Capplet</Category>
+        <Category>AdvancedSettings</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <!-- System -->
+  <Menu>
+    <Name>System</Name>
+    <Directory>gnome-settings-system.directory</Directory>
+    <Include>
+      <And>
+        <Category>GNOME</Category>
+        <Category>X-Capplet</Category>
+        <Category>Settings</Category>
+        <Category>System</Category>
+      </And>
+    </Include>
+  </Menu>
+
   <!-- Accessibility -->
   <Menu>
     <Name>Accessibility</Name>
@@ -38,6 +68,8 @@
     <Include>
       <And>
         <Category>Settings</Category>
+        <Category>GNOME</Category>
+        <Category>X-Capplet</Category> 
         <Category>Accessibility</Category>
       </And>
     </Include>
