@@ -1,6 +1,6 @@
 Summary:	AppLnk - base directories tree used for storing desktop/kdelnk menu entries
 Name:		applnk
-Version:	1.1
+Version:	1.2
 Release:	1
 License:	GPL
 Group:		Base
