@@ -1,7 +1,7 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
-Version:	1.6
+Version:	1.6.1
 Release:	1
 License:	GPL
 Group:		Base
@@ -13,7 +13,6 @@ BuildRequires:	automake
 Conflicts:	wmconfig < 0.9.10-5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %define		_vfconfdir	/etc/X11/desktop
 %define		_vfinfodir	%{_datadir}/desktop-directories
@@ -43,10 +42,10 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install applnkdir=%{_applnkdir} pixmapsdir=%{_pixmapsdir} \
-		DESTDIR=$RPM_BUILD_ROOT
-
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT \
+	applnkdir=%{_applnkdir} \
+	pixmapsdir=%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
