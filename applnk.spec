@@ -4,7 +4,7 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Base
-Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.gz
+Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
