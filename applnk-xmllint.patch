@@ -1,0 +1,19 @@
+--- applnk-1.9.3/menus/applications.menu.wiget	2004-07-18 21:11:42.000000000 +0200
++++ applnk-1.9.3/menus/applications.menu	2004-07-21 17:09:13.148850439 +0200
+@@ -1,5 +1,5 @@
+- <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+-  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
++ <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 0.8//EN"
++  "http://www.freedesktop.org/standards/menu-spec/menu-0.8.dtd">
+ 
+ <Menu>
+ 	<Name>Applications</Name>
+@@ -716,7 +716,7 @@
+ 			<Or>
+ 			<Category>Settings</Category>
+ 			<Category>DesktopSettings</Category>
+-			<Category>HardwareSettings</Category>>
++			<Category>HardwareSettings</Category>
+ 			<Category>PackageManager</Category>
+ 			</Or>
+ 		</Include>
