@@ -2,13 +2,17 @@ Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu ent
 Summary(pl):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
 Version:	1.9.3
-Release:	2
+Release:	2.1
 License:	GPL
 Group:		Base
 #Source0:	ftp://ftp.pld-linux.org/software/applnk/
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	4ca390faf2287051251cca02d971bac1
+Source1:	package_gnome_accessibility.png
+Source2:	package_gnome_advanced.png
+Source3:	package_gnome_system.png
 Patch0:		%{name}-xmllint.patch
+Patch1:		%{name}-gnome-settings.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildArch:	noarch
@@ -32,6 +36,7 @@ grup/elementów katalogów.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 rm -f missing
@@ -42,12 +47,13 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	pixmapsdir=%{_pixmapsdir}
 
-install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
+install %{SOURCE1} %{SOURCE2} %{SOURCE3} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
