@@ -51,7 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_xdgconfdir}
 %dir %{_xdgconfdir}/menus
 # should be marked as %%config
 %{_xdgconfdir}/menus/applications.menu
