@@ -1,4 +1,4 @@
-Summary:	AppLnk - base directories tree used for storing desktop/kdelnk menu entries
+Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl):	Applnk - bazowa srruktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
 Version:	1.4.2
@@ -9,6 +9,8 @@ Group(pl):	Podstawowe
 Source0:	ftp://ftp.pld.org.pl/software/applnk/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_prefix		/usr/X11R6
 
 %description
 Base directories tree used for storing desktop/kdelnk menu entries.
@@ -25,11 +27,13 @@ grup/elementów katalogów.
 %prep
 %setup -q
 
+%build
+%configure
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}
 
-cp -ar .order * $RPM_BUILD_ROOT%{_applnkdir}
+%{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
