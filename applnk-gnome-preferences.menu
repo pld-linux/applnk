@@ -3,7 +3,7 @@
 
 <Menu>
   <Name>Preferences</Name>
-  <Directory>settings.directory</Directory>
+  <Directory>gnome-settings.directory</Directory>
 
   <!-- Read standard .directory and .desktop file locations -->
   <DefaultAppDirs/>
@@ -64,7 +64,7 @@
   <!-- Accessibility -->
   <Menu>
     <Name>Accessibility</Name>
-    <Directory>accessibility.directory</Directory>
+    <Directory>gnome-settings-accessibility.directory</Directory>
     <Include>
       <And>
         <Category>Settings</Category>
