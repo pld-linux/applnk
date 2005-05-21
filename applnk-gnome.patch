@@ -1,6 +1,6 @@
 diff -aurN applnk-1.9.5.orig/desktop-directories/gnome-settings.directory applnk-1.9.5/desktop-directories/gnome-settings.directory
 --- applnk-1.9.5.orig/desktop-directories/gnome-settings.directory	2005-02-26 11:48:02.000000000 +0100
-+++ applnk-1.9.5/desktop-directories/gnome-settings.directory	2005-05-20 22:37:10.000000000 +0200
++++ applnk-1.9.5/desktop-directories/gnome-settings.directory	2005-05-21 17:23:56.000000000 +0200
 @@ -1,6 +1,7 @@
  [Desktop Entry]
  Encoding=UTF-8
@@ -12,8 +12,18 @@ diff -aurN applnk-1.9.5.orig/desktop-directories/gnome-settings.directory applnk
  Icon=package_gnome.png
 diff -aurN applnk-1.9.5.orig/menus/applications.menu applnk-1.9.5/menus/applications.menu
 --- applnk-1.9.5.orig/menus/applications.menu	2005-03-25 21:18:04.000000000 +0100
-+++ applnk-1.9.5/menus/applications.menu	2005-05-20 22:37:25.000000000 +0200
-@@ -749,6 +749,7 @@
++++ applnk-1.9.5/menus/applications.menu	2005-05-21 17:25:50.000000000 +0200
+@@ -429,6 +429,9 @@
+ 		<Include>
+ 			<Category>X-Help</Category>
+ 		</Include>
++		<Exclude>
++			<Filename>yelp.desktop</Filename>
++		</Exclude>
+ 	</Menu>
+ 	<Menu>
+ 		<Name>Multimedia</Name>
+@@ -749,6 +752,7 @@
  			</Or>
  			<Not><Category>X-XFCE</Category></Not>
  			<Not><Category>X-Capplet</Category></Not>
@@ -21,7 +31,7 @@ diff -aurN applnk-1.9.5.orig/menus/applications.menu applnk-1.9.5/menus/applicat
  			</And>
  		</Include>
  		<Menu>
-@@ -761,56 +762,6 @@
+@@ -761,56 +765,6 @@
  				</And>
  			</Include>
  		</Menu>
@@ -78,7 +88,7 @@ diff -aurN applnk-1.9.5.orig/menus/applications.menu applnk-1.9.5/menus/applicat
  	</Menu>
  	<Menu>
  		<Name>System</Name>
-@@ -982,4 +933,13 @@
+@@ -982,4 +936,13 @@
  	<DefaultMergeDirs/>
  	<!-- For user menu modified with kmenuedit -->
  	<MergeFile>applications-kmenuedit.menu</MergeFile>
