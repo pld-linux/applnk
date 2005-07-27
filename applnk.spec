@@ -10,9 +10,8 @@ Source0:	ftp://ftp.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
 Source1:	%{name}-gnome-preferences.menu
 Source2:	%{name}-gnome-settings.menu
 Patch0:		%{name}-system.patch
-Patch1:		%{name}-gnome.patch
-Patch2:		%{name}-category.patch
-Patch3:		%{name}-ca+es.patch
+Patch1:		%{name}-category.patch
+Patch2:		%{name}-ca+es.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 Obsoletes:	gnome-menus
@@ -41,7 +40,6 @@ grup/elementów katalogów.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
-%patch3 -p1
 
 %build
 rm -f missing
