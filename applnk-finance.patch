@@ -1,0 +1,24 @@
+diff -ur applnk-1.9.5.orig/menus/applications.menu applnk-1.9.5/menus/applications.menu
+--- applnk-1.9.5.orig/menus/applications.menu	2006-04-24 02:51:35.000000000 +0200
++++ applnk-1.9.5/menus/applications.menu	2006-04-24 02:56:40.000000000 +0200
+@@ -646,10 +646,11 @@
+ 			<And>
+ 			<Category>Office</Category>
+ 			<Not><Category>ContactManagement</Category></Not>
++			<Not><Category>Database</Category></Not>
++			<Not><Category>Finance</Category></Not>
+ 			<Not><Category>Presentation</Category></Not>
+ 			<Not><Category>Spreadsheet</Category></Not>
+ 			<Not><Category>WordProcessor</Category></Not>
+-			<Not><Category>Database</Category></Not>
+ 			<Not><Category>X-Misc</Category></Not>
+ 			<Not><Category>X-PIM</Category></Not>
+ 			<Not><Category>Calendar</Category></Not>
+@@ -688,6 +689,7 @@
+ 				<Or>
+ 				<Category>X-Misc</Category>
+ 				<Category>Chart</Category>
++				<Category>Finance</Category>
+ 				</Or>
+ 				</And>
+ 			</Include>
