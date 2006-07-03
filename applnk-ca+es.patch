@@ -845,7 +845,7 @@ diff -ur applnk-1.9.5.orig/desktop-directories/network-news.directory applnk-1.9
  Name[pl]=Wiadomości
 +Comment=Usenet and newstickers
 +Comment[ca]=Grups de discussió i notícies
-+Comment[es]=Grupos de discusión i noticias
++Comment[es]=Grupos de discusión y noticias
  Comment[pl]=Grupy dyskusyjne i wiadomości
  Icon=package_network_news.png
  Type=Directory
