@@ -54,8 +54,7 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged \
-	$RPM_BUILD_ROOT%{_desktopdir}/docklets
+install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
@@ -70,7 +69,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog NEWS
-%dir %{_desktopdir}/docklets
 %dir %{_xdgconfdir}/menus
 %dir %{_xdgconfdir}/menus/applications-merged
 %{_xdgconfdir}/menus/*.menu
