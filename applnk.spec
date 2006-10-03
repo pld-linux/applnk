@@ -1,18 +1,12 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
-Version:	1.9.5
-Release:	19
+Version:	1.9.6
+Release:	1
 License:	GPL
 Group:		Base
-Source0:	ftp://ftp.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
-# Source0-md5:	e3d5d40cfd4ea6c891d4e337004e09f4
-Source1:	%{name}-gnome-preferences.menu
-Source2:	%{name}-gnome-settings.menu
-Patch0:		%{name}-system.patch
-Patch1:		%{name}-gnome.patch
-Patch2:		%{name}-category.patch
-Patch3:		%{name}-ca+es.patch
+Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
+# Source0-md5:	bc7228fc59c908a6477046a3c646efa8
 BuildRequires:	autoconf
 BuildRequires:	automake
 Obsoletes:	gnome-menus
@@ -38,10 +32,6 @@ grup/elementów katalogów.
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
-%patch2 -p1
-%patch3 -p1
 
 %build
 rm -f missing
@@ -52,15 +42,10 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged \
-	$RPM_BUILD_ROOT%{_desktopdir}/docklets
+install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	pixmapsdir=%{_pixmapsdir}
-
-install %{SOURCE1} $RPM_BUILD_ROOT%{_xdgconfdir}/menus/preferences.menu
-install %{SOURCE2} $RPM_BUILD_ROOT%{_xdgconfdir}/menus/settings.menu
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -68,7 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog NEWS
-%dir %{_desktopdir}/docklets
 %dir %{_xdgconfdir}/menus
 %dir %{_xdgconfdir}/menus/applications-merged
 %{_xdgconfdir}/menus/*.menu
