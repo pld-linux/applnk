@@ -5,7 +5,7 @@ Version:	1.9.6
 Release:	1
 License:	GPL
 Group:		Base
-Source0:	ftp://ftp.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
+Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
 # Source0-md5:	bc7228fc59c908a6477046a3c646efa8
 BuildRequires:	autoconf
 BuildRequires:	automake
