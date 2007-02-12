@@ -1,5 +1,5 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
-Summary(pl):	Applnk - bazowa struktura katalog體 z opisami do plik體 desktop/kdelnk
+Summary(pl.UTF-8):   Applnk - bazowa struktura katalog贸w z opisami do plik贸w desktop/kdelnk
 Name:		applnk
 Version:	1.9.6
 Release:	1
@@ -23,12 +23,12 @@ Base directories tree used for storing desktop/kdelnk menu entries.
 Package also contains full description of this hierarchy (descriptions
 with translations and menu order).
 
-%description -l pl
-Bazowa struktura katalog體 u縴wana do przechowywania plik體
-desktop/kdelnk opisu element體 menu ze spisem aplikacji. Pakiet
-zawiera pe硁y opis hierarchii katalog體 (w plikach .directory) wraz z
-t硊maczeniami tych opis體, a tak縠 opis sposobu uszeregowania
-grup/element體 katalog體.
+%description -l pl.UTF-8
+Bazowa struktura katalog贸w u偶ywana do przechowywania plik贸w
+desktop/kdelnk opisu element贸w menu ze spisem aplikacji. Pakiet
+zawiera pe艂ny opis hierarchii katalog贸w (w plikach .directory) wraz z
+t艂umaczeniami tych opis贸w, a tak偶e opis sposobu uszeregowania
+grup/element贸w katalog贸w.
 
 %prep
 %setup -q
