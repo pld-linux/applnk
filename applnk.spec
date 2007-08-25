@@ -9,8 +9,8 @@ Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
 # Source0-md5:	bc7228fc59c908a6477046a3c646efa8
 BuildRequires:	autoconf
 BuildRequires:	automake
-Conflicts:	gnome-menus
 Provides:	xdg-menus
+Conflicts:	gnome-menus
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
