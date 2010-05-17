@@ -1,17 +1,14 @@
 Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu entries
 Summary(pl.UTF-8):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
-Version:	1.9.6
-Release:	3
+Version:	2.0.0
+Release:	1
 License:	GPL
 Group:		Base
 Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
-# Source0-md5:	bc7228fc59c908a6477046a3c646efa8
-BuildRequires:	autoconf
-BuildRequires:	automake
+# Source0-md5:	28009c432a46358a2a314ea9176a46c7
 Provides:	xdg-menus
 Conflicts:	gnome-menus
-Conflicts:	xfdesktop-menus
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,10 +31,6 @@ grup/elementów katalogów.
 %setup -q
 
 %build
-rm -f missing
-%{__aclocal}
-%{__autoconf}
-%{__automake}
 %configure
 
 %install
