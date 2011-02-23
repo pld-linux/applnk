@@ -2,7 +2,7 @@ Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu ent
 Summary(pl.UTF-8):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
 Version:	2.2.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Base
 Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
@@ -42,6 +42,16 @@ install -d $RPM_BUILD_ROOT%{_xdgconfdir}/menus/applications-merged
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post
+%banner %{name} -e << EOF
+Use of applnk menu is now controlled via XDG_MENU_PREFIX
+environment variable.  If you want to disable it, then edit
+/etc/env.d/XDG_MENU_PREFIX file.
+
+If your menus just disappeared you need to re-login!
+
+EOF
 
 %files
 %defattr(644,root,root,755)
