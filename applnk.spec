@@ -2,7 +2,7 @@ Summary:	Applnk - base directories tree used for storing desktop/kdelnk menu ent
 Summary(pl.UTF-8):	Applnk - bazowa struktura katalogów z opisami do plików desktop/kdelnk
 Name:		applnk
 Version:	2.2.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Base
 Source0:	ftp://ep09.pld-linux.org/software/applnk/%{name}-%{version}.tar.bz2
@@ -51,6 +51,8 @@ environment variable.  If you want to disable it, then edit
 
 If your menus just disappeared you need to re-login!
 
+KDE users may have to logout and remove /{var,}/tmp/kdecache-*
+directories before loging in.
 EOF
 
 %files
