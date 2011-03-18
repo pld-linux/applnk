@@ -52,7 +52,7 @@ environment variable.  If you want to disable it, then edit
 If your menus just disappeared you need to re-login!
 
 KDE users may have to logout, remove /{var,}/tmp/kdecache-*
-directories before loging in and run kbuildsycoca4.
+directories before logging in and run kbuildsycoca4.
 EOF
 
 %files
