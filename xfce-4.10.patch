@@ -1,0 +1,18 @@
+--- applnk-2.2.0/menus/applnk-applications.menu~	2011-02-22 11:20:34.000000000 +0100
++++ applnk-2.2.0/menus/applnk-applications.menu	2012-05-17 19:53:29.962100171 +0200
+@@ -621,6 +621,7 @@
+ 			<Category>PackageManager</Category>
+ 			<Category>Printing</Category>
+ 			</Or>
++			<Not><Category>XFCE</Category></Not>
+ 			<Not><Category>X-XFCE</Category></Not>
+ 			<Not><Category>GNOME</Category></Not>
+ 			</And>
+@@ -632,6 +633,7 @@
+ 				<And>
+ 				<Category>Settings</Category>
+ 				<Category>X-XFCE</Category>
++				<Category>XFCE</Category>
+ 				</And>
+ 			</Include>
+ 			<Layout>
