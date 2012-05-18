@@ -1,6 +1,24 @@
---- applnk-2.2.0/menus/applnk-applications.menu~	2011-02-22 11:20:34.000000000 +0100
-+++ applnk-2.2.0/menus/applnk-applications.menu	2012-05-17 19:53:29.962100171 +0200
-@@ -621,6 +621,7 @@
+diff -ur applnk-2.2.0.orig/menus/applnk-applications.menu applnk-2.2.0/menus/applnk-applications.menu
+--- applnk-2.2.0.orig/menus/applnk-applications.menu	2011-02-22 11:20:34.000000000 +0100
++++ applnk-2.2.0/menus/applnk-applications.menu	2012-05-18 02:07:20.098461411 +0200
+@@ -26,7 +26,7 @@
+ 	</Include>
+ 
+ 	<Layout>
+-		<Filename>xfrun4.desktop</Filename>
++		<Filename>xfce4-run.desktop</Filename>
+ 		<Separator/>
+ 		<Filename>exo-terminal-emulator.desktop</Filename>
+ 		<Filename>exo-file-manager.desktop</Filename>
+@@ -38,7 +38,6 @@
+ 		<Separator/>
+ 		<Menuname>Settings</Menuname>
+ 		<Separator/>
+-		<Filename>xfhelp4.desktop</Filename>
+ 		<Filename>xfce4-about.desktop</Filename>
+ 		<Filename>xfce4-session-logout.desktop</Filename>
+ 	</Layout>
+@@ -621,6 +620,7 @@
  			<Category>PackageManager</Category>
  			<Category>Printing</Category>
  			</Or>
@@ -8,7 +26,7 @@
  			<Not><Category>X-XFCE</Category></Not>
  			<Not><Category>GNOME</Category></Not>
  			</And>
-@@ -632,6 +633,7 @@
+@@ -632,6 +632,7 @@
  				<And>
  				<Category>Settings</Category>
  				<Category>X-XFCE</Category>
@@ -16,3 +34,12 @@
  				</And>
  			</Include>
  			<Layout>
+@@ -640,6 +641,7 @@
+ 				<Merge type="menus"/>
+ 				<Merge type="files"/>
+ 			</Layout>
++			<MergeFile>xfce-settings-manager.menu</MergeFile>
+ 		</Menu>
+ 		<Menu>
+ 			<Name>GNOME</Name>
+Only in applnk-2.2.0/menus: applnk-applications.menu~
